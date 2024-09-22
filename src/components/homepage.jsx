@@ -6,7 +6,7 @@ import Skills from "./skills";
 import Contact from "./contact";
 import Gallery from "./gallery";
 import { AiOutlineArrowUp } from 'react-icons/ai';
-const Main = () => {
+const Homepage = () => {
   console.log('Main component rendered');
   return (
     <div className="bg-[url('./assets/abg.jpeg')] ">
@@ -39,4 +39,4 @@ const Main = () => {
   )
 }
 
-export default Main;
+export default Homepage;

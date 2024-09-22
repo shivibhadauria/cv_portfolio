@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Main from './components/main.jsx';
+import Homepage from './components/homepage';
 
 
 
@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Routes>
         {/* Define your routes here, for example: */}
-        <Route path="./" element={<Main />} />
+        <Route path="/" element={<Homepage />} />
         {/* Add more routes as needed */}
       </Routes>
     </Router>
