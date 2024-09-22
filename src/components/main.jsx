@@ -7,6 +7,7 @@ import Contact from "./contact";
 import Gallery from "./gallery";
 import { AiOutlineArrowUp } from 'react-icons/ai';
 const Main = () => {
+  console.log('Main component rendered');
   return (
     <div className="bg-[url('./assets/abg.jpeg')] ">
         <Nav/>
