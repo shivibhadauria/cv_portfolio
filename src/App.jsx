@@ -6,7 +6,7 @@ import Homepage from './components/homepage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/cv_portfolio">
       <Routes>
         {/* Define your routes here, for example: */}
         <Route path="/" element={<Homepage />} />
